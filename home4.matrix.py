@@ -1,0 +1,17 @@
+import numpy as np
+import random
+matrix1=np.int_(np.random.rand(4,3) * 10)
+matrix2=np.int_(np.random.rand(3,5) * 10)
+matrix3=np.dot(matrix1,matrix2)
+matrix4=np.add(matrix1,4)
+matrix5=np.median(matrix2)
+print("matrix1")
+print(matrix1)
+print("matrix2")
+print(matrix2)
+print("result of multiply")
+print(matrix3)
+print("result of sum")
+print(matrix4)
+print("median")
+print(matrix5)
